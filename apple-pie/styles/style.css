@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+  }
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.applePieTitle{
+    position: absolute;
+    display: flex;
+    color:white;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+}
+
+
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 50px;
+}
+
+.topImage {
+    max-width: 100%;
+    height: auto;
+  }
+
+.cookingImg{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px;
+}
+
+.cookingInfo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px;
+}
+
+.list{
+    margin-left: 5%;
+}
